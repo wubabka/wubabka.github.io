@@ -168,7 +168,7 @@ input::-webkit-contacts-auto-fill-button {
   font-family: "Impact", "Tahoma", sans-serif;
   font-size: 48px;
   border: 5px solid black;
-  box-shadow: 10px 10px 8px -6px #555555;
+  box-shadow: 10px 7px 7px -6px #555555;
   text-transform: uppercase;
   letter-spacing: 0.25em;
   word-spacing: 0.5em; }
