@@ -157,7 +157,9 @@ input::-webkit-contacts-auto-fill-button {
   width: 50%;
   text-align: center;
   margin: 0 auto;
-  overflow: hidden; }
+  overflow: hidden;
+  padding-bottom: 48px;
+}
 
 .page-right__header {
   margin-top: 30px; }
@@ -190,12 +192,12 @@ input::-webkit-contacts-auto-fill-button {
   border-right: 40px solid transparent; }
 
 .page-right__header p {
-  margin-top: 20px;
+  margin-top: 32px;
   font-size: 18px;
   font-weight: bold; }
 
 .page-right__header div {
-  margin-top: 20px;
+  margin-top: 32px;
   font-size: 16px; }
 
 .page-right__header div::before {
@@ -208,7 +210,13 @@ input::-webkit-contacts-auto-fill-button {
   letter-spacing: 0.1em; }
 
 .page-right__caption {
-  margin-top: 30px; }
+  margin-top: 40px;
+}
+
+.page-right__about {
+  text-align: left;
+  margin: 20px 8% 0;
+}
 
 .page-right__list {
   margin: 20px 8% 0;
@@ -240,7 +248,19 @@ input::-webkit-contacts-auto-fill-button {
   margin-top: 30px; }
 
 .page-right__mai {
-  line-height: 22px; }
+  line-height: 22px;
+}
+
+.page-right__about-me::before {
+  content: "";
+  position: absolute;
+  left: -34px;
+  top: 10%;
+  width: 16px;
+  height: 16px;
+  background-color: #04b9ad;
+  border-radius: 50%;
+}
 
 .page-right__mai::before {
   content: "";
@@ -250,7 +270,8 @@ input::-webkit-contacts-auto-fill-button {
   width: 30px;
   height: 29px;
   background-image: url(../img/mai.png);
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+}
 
 .page-right__gb::before {
   content: "";
